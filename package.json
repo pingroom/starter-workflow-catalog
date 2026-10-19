@@ -1,0 +1,17 @@
+{
+  "name": "pingroom-starter-workflow-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Synchronize public PingRoom workflow references into a bounded local catalog and search them offline.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/main.js search",
+    "sync": "node src/main.js sync",
+    "search": "node src/main.js search",
+    "demo": "node src/demo.js",
+    "test": "node --test"
+  },
+  "dependencies": { "@pingroom/sdk": "0.6.0" },
+  "license": "MIT"
+}
